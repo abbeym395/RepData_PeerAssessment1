@@ -7,7 +7,12 @@ output:
 
 
 ## Loading and preprocessing the data
+The first step is to unzip the provided file and to read it into a
+data.table.
 
+```{r}
+unzip("activity.zip")
+```
 
 
 ## What is mean total number of steps taken per day?
